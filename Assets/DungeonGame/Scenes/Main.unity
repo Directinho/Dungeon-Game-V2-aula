@@ -5864,6 +5864,7 @@ MonoBehaviour:
   speed: 2
   vida: 20
   maxVida: 100
+  target: {fileID: 1390919504}
 --- !u!1 &1510062983
 GameObject:
   m_ObjectHideFlags: 0
@@ -6060,6 +6061,7 @@ MonoBehaviour:
   speed: 6
   vida: 90
   maxVida: 100
+  target: {fileID: 1390919504}
 --- !u!224 &1628285479
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6263,8 +6265,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nome: Vampiro
   speed: 4
-  vida: 20
+  vida: 40
   maxVida: 100
+  target: {fileID: 1390919504}
 --- !u!1 &1817306796
 GameObject:
   m_ObjectHideFlags: 0

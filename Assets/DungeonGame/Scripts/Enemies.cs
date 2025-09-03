@@ -18,6 +18,10 @@ public class Enemies:MonoBehaviour
     }
     void Move()
     {
-        transform.position = Vector2.MoveTowards(transform.position, target.position,  speed );
+        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+    }
+    private void Update()
+    {
+        Move();
     }
 }
