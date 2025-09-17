@@ -5,7 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Main.unity
+  - enabled: 0
+    path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/DungeonGame/Scenes/Main.unity
+    guid: 9d98c9636edf3474185f8625f40d3133
+  - enabled: 1
+    path: Assets/DungeonGame/Scenes/MainMenu.unity
+    guid: d990ac93fe7e7ba45bf09b6b7882c0dc
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
